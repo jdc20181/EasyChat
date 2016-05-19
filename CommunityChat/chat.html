@@ -1,0 +1,48 @@
+<?php
+if( !empty($_POST['clear'])){
+   $my_file = 'file.txt';
+   if(is_file($my_file)){
+unlink($my_file);
+   }
+}
+if( !empty($_POST['chat'])){
+$newData = $_POST['chat'];
+$newData .= "<br>";
+$my_file = 'file.txt';
+$handle = fopen($my_file, 'a+') or die('Cannot open file:  '.$my_file);
+$data = fwrite($handle,$newData);
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>FlemChat</title>
+   <link rel="stylesheet" href="main.css" type="text/css"/>
+   <script src="chat.js"></script>
+</head>
+<body>
+
+   <form id="form1" method="post" action="">
+         <textarea id="area2" rows="10" name="chat" cols="50" placeholder="Type here..."></textarea>
+         <br>
+         <input type="submit" id="button" value="Speak">
+   </form>
+   <form id="form1" method="post" action="">
+         <input type="submit" name="clear" id="button" value="Clear">
+   </form>
+   <hr>
+<h2>Message:</h2>
+<?php 
+
+$my_file = 'file.txt';
+if(is_file($my_file)){
+$handle = fopen($my_file, 'r') or die('Cannot open file:  '.$my_file);
+$data = fread($handle,filesize($my_file));
+
+echo nl2br($data);
+}
+?>
+<hr>
+</body>
+</html>
