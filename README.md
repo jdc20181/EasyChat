@@ -14,3 +14,4 @@ This is simply a project created for me to learn. So here in the early days, som
 A list of these are located <a href="https://github.com/jdc20181/EasyChat/wiki/Sources-for-Early-Versions-of-EasyChat">Here</a>
 
 
+To find out how to use easy chat, develpment news and change logs of versions visit the <a href="https://github.com/jdc20181/EasyChat/wiki">wiki</a>
