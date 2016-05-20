@@ -15,3 +15,6 @@ A list of these are located <a href="https://github.com/jdc20181/EasyChat/wiki/S
 
 
 To find out how to use easy chat, develpment news and change logs of versions visit the <a href="https://github.com/jdc20181/EasyChat/wiki">wiki</a>
+
+
+Coming soon! Easy Chat For Windows, talk to people around the world!
