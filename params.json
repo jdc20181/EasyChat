@@ -1,0 +1,6 @@
+{
+  "name": "Easychat",
+  "tagline": "A easy to use Chat tool to add a chatroom to your site. ",
+  "body": "# EasyChat\r\n\r\nEasy Chat is a simple Chat tool that enables the ability to place a chat on your website. \r\n\r\nThere are two versions:\r\n\r\n-Community Chat \r\n-Customer Support Chat\r\n\r\nEach version has it's own set of features. \r\n\r\nThis is simply a project created for me to learn. So here in the early days, some of the code is borrowed. \r\nA list of these are located <a href=\"https://github.com/jdc20181/EasyChat/wiki/Sources-for-Early-Versions-of-EasyChat\">Here</a>\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
