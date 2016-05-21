@@ -67,7 +67,7 @@ border-radius: 5px;
 <div class="container">
 <div class="chat">
  <div id="chatZone" name="chatZone"></div>
-  <form onsubmit="chat.sendMsg(); return false;">
+  <form onsubmit="chat.sendMsg(); return false; Clear();">
    <label for="msg" style="float:left">Message:</label>
    <input type="text" id="msg" name="msg" autofocus="true" placeholder="Type Your Meassage Here" />
    <input type="submit" />
@@ -75,5 +75,12 @@ border-radius: 5px;
  </div>
 </div>
 <script type="text/javascript" src="chat.js"></script>
+<script>
+ function Clear()
+{    
+   document.getElementById("msg").value= "";
+ 
+}
+</script>
 </body>
 </html>
