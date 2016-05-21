@@ -1,5 +1,6 @@
 # EasyChat
 
+Latest Developed demo <a href="http://jdc20181.github.io/EasyChat/CommunityChat/index.html">Here</a>
 Easy Chat is a simple Chat tool that enables the ability to place a chat on your website. 
 
 There are two versions:
